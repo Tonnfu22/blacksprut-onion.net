@@ -12,6 +12,9 @@
 
               <br>
               <p class="card-text">{{ page.future.item_1.article }}</p>
+              <div class="d-grid gap-2">
+                <a href="/" class="btn btn-outline-success btn-lg">{{ alt.keyword | sample }}</a>
+              </div>
             </div>
           </div>
         </div>
@@ -22,6 +25,9 @@
               {% picture jpt-webp {{ image_paths | sample }} 1:1 jpt-mobile: {{ image_paths | sample }} 1:1 --img class="img-fluid mb-5" width="400" height="400" --alt {{ alt.keyword | sample }} %}
               <h4 class="card-title text-center">{{ page.future.item_2.subtitle }}</h4>
               <p class="card-text">{{ page.future.item_2.article }}</p>
+              <div class="d-grid gap-2">
+                <a href="/" class="btn btn-outline-success btn-lg">{{ alt.keyword | sample }}</a>
+              </div>
               <br>
             </div>
           </div>
@@ -33,6 +39,9 @@
               {% picture jpt-webp {{ image_paths | sample }} 1:1 jpt-mobile: {{ image_paths | sample }} 1:1 --img class="img-fluid mb-5" width="400" height="400" --alt {{ alt.keyword | sample }} %}
               <h4 class="card-title text-center">{{ page.future.item_3.subtitle }}</h4>
               <p class="card-text">{{ page.future.item_3.article }}</p>
+              <div class="d-grid gap-2">
+                <a href="/" class="btn btn-outline-success btn-lg">{{ alt.keyword | sample }}</a>
+              </div>
               <br>
             </div>
           </div>
