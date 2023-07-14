@@ -1,5 +1,6 @@
   #Клокак включена/выключена true|false
   cl: false
+  logo_folder: /assets/blocks/images/
   #id счетчика Яндекс-метрики
   ymid:
   #Версия Bootstrap
