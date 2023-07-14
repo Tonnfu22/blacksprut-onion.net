@@ -1,11 +1,11 @@
 builder: jekyll
 defaults:
   - scope:
-      path: "assets/mega_img"
+      path: "assets/blocks/images/mega"
     values:
       mega: true
   - scope:
-      path: "assets/bs_img"
+      path: "assets/blocks/images/bs"
     values:
       bs: true
 
