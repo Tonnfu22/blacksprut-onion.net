@@ -7,8 +7,7 @@
 {% assign alt = site.data.keywords_ru %}
 {% endif %}
 
-{% assign vol = '"' | append: page.shop | append: '"' %}
-{% assign image_files = site.static_files | where: "image", "mega" %}
+{% assign image_files = site.static_files | where: \"page.shop\", true %}
 
 {% assign image_paths = image_files | map: "path" %}
 {% assign image = image_paths | sample %}

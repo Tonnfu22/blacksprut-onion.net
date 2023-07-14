@@ -1,5 +1,5 @@
 ---
-shop: mega
+shop: bs
 layout: blocks
 site_title: "Ссылка mega даркнет | ссылка на даркнет сайт mega darknet площадка"
 site_description: "Mega darknet market - ссылка на сайт mega. Широкий ассортимент товаров на любой вкус -  сайт mega даркнет : mega сайт. Это анонимные и безопасные покупки."

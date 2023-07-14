@@ -1,4 +1,5 @@
   #Клокак включена/выключена true|false
+  shop: mega
   cl: false
   logo_folder: /assets/blocks/images/
   #id счетчика Яндекс-метрики
