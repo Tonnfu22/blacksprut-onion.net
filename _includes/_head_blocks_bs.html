@@ -1,10 +1,10 @@
 {% if site.data.config.lang == "en" %}
 {% assign alternate = "ru." %}
 {% assign hreflang = "ru" %}
-{% assign alt = site.data.keywords_en %}
+{% assign alt = site.data.bs_keywords_en %}
 {% elsif site.data.config.lang == "ru" %}
 {% assign hreflang = "en" %}
-{% assign alt = site.data.keywords_ru %}
+{% assign alt = site.data.bs_keywords_ru %}
 {% endif %}
 
 {% assign image_files = site.static_files | where: \"page.shop\", true %}

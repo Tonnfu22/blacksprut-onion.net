@@ -1,15 +1,14 @@
   #Клокак включена/выключена true|false
   shop: mega
   cl: false
-  logo_folder: /assets/blocks/images/
   #id счетчика Яндекс-метрики
   ymid:
   #Версия Bootstrap
   bootstrap: 5
   #Мета-тег верификации Яндекс Вебмастер
-  ya_verif: '<meta name="yandex-verification" content="cf87b6f1c1ffaea4">'
+  ya_verif: ''
   #Дата публикации 
-  date_published: 2023-05-08
+  date_published: 2023-07-14
   #Язык сайта
   lang: en
   #Имя для ld-json разметки
