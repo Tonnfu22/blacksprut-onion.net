@@ -1,4 +1,5 @@
 builder: jekyll
+port: 4001
 defaults:
   - scope:
       path: "assets/blocks/images/mega"
