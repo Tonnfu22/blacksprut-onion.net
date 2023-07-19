@@ -1,0 +1,28 @@
+builder: jekyll
+port: 4001
+defaults:
+  - scope:
+      path: "assets/blocks/images/mega"
+    values:
+      mega: true
+  - scope:
+      path: "assets/blocks/images/bs"
+    values:
+      bs: true
+
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+data_dir: _data
+include:
+  - sitemap.xml
+  - robots.txt
+  - _header
+plugins:
+  - jekyll-redirect-from
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-admin
+  - jekyll_picture_tag
+picture:
+  source: "/"
+  output: "assets/images/opt"
