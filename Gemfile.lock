@@ -82,7 +82,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
-    rmagick (4.3.0)
+    rmagick (2.16.0)
     rouge (4.1.2)
     ruby-vips (2.0.17)
       ffi (~> 1.9)
@@ -118,6 +118,7 @@ DEPENDENCIES
   jekyll-responsive-image
   jekyll-sitemap
   jekyll_picture_tag (~> 2.0)
+  rmagick (~> 2.0)
 
 BUNDLED WITH
    2.4.14
