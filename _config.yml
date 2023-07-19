@@ -21,7 +21,6 @@ plugins:
   - jekyll-redirect-from
   - jekyll-include-cache
   - jekyll-sitemap
-  - jekyll-admin
   - jekyll_picture_tag
 picture:
   source: "/"
