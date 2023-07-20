@@ -1,10 +1,10 @@
 logo: 2 #Логотип (указывается цифраами от 1 до 5)
 # ниже указываем номера блоков для каждой секции файлов (от 1 до 5)
-nav: 7
-hero: 2
-featured: 6
-about: 8
-faq: 8
-feedback: 1
+nav: 4
+hero: 3
+featured: 7
+about: 1
+faq: 2
+feedback: 7
 main: 5
 footer: 7
